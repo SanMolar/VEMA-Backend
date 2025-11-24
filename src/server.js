@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const cors    = require('cors');
-const bcrypt  = require('bcryptjs');GIT 
+const bcrypt  = require('bcryptjs');
 const jwt     = require('jsonwebtoken');
 
 // SDK Mercado Pago v2
