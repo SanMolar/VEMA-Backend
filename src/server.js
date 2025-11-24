@@ -9,9 +9,9 @@ const jwt     = require('jsonwebtoken');
 // SDK Mercado Pago v2
 const { MercadoPagoConfig, Preference, Payment } = require('mercadopago');
 
-const { pool } = require('./src/db');
-const { sendPurchaseConfirmation, verifyTransport } = require('./src/mailer');
-const { priceCart } = require('./src/services/pricing');
+const { pool } = require('./db');
+const { sendPurchaseConfirmation, verifyTransport } = require('./mailer');
+const { priceCart } = require('./services/pricing');
 
 const app = express(); 
 
